@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no,
+          initial-scale=1.0,
+          maximum-scale=1.0,
+          minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post" name="formReg">
+    <label>Name:
+        <input type="text" name="name">
+    </label>
+    <label>I would prefer not to specify my phone number and home town
+        <input type="checkbox" name="prefer"></label>
+    <label>Telephone:
+        <input type="tel" name="tel">
+    </label>
+    <label>Region:
+        <select name="regions" id="regions">
+            <option value=""></option>
+            <option value="Kyiv">Kyiv</option>
+            <option value="center">center</option>
+            <option value="North">North</option>
+            <option value="East">East</option>
+            <option value="South">South</option>
+            <option value="West">West</option>
+        </select>
+    </label>
+    <label>City:
+        <select name="cities" id="cities">
+        </select>
+    </label>
+    <input type="submit" value="Submit" name="button" disabled>
+</form>
+
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

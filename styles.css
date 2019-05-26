@@ -1,0 +1,12 @@
+label {
+    margin: 10px;
+    display: block;
+}
+
+.inValid {
+    background-color: red;
+}
+
+.valid {
+    background-color: green;
+}
